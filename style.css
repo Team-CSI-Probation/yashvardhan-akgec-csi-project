@@ -3,10 +3,17 @@
     padding: 0;
     margin: 0;
 }
+
 /* Dropdown Button */
 .nav{
     color: white;
     background-color: black;
+}
+.nav-home
+{
+  color: white;
+  text-decoration: none;
+  margin: 15px;
 }
 .dropbtn {
     background-color: black;
@@ -40,4 +47,11 @@
   }
   .dropdown-content a:hover {background-color: #ddd;}
   .dropdown:hover .dropdown-content {display: block;}
+
   
+.content-home{
+  background-image: url('tour-pic/akg-home.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
