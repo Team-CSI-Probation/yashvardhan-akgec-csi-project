@@ -50,8 +50,16 @@
 
   
 .content-home{
-  background-image: url('tour-pic/akg-home.jpg');
+  background-image: url('tour-pic/akgec-2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
+  height: 120vh;
+}
+.content-home h1{
+  width: auto;
+  padding: 10px;
+  background-color: yellow;
+}
+.content-home p{
+font-weight: bold;
 }
