@@ -45,21 +45,36 @@
     text-decoration: none;
     display: block;
   }
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
+h6{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: rgb(98, 14, 177);
+}
+h1{color: brown;
+  font-style: oblique;
+  text-decoration: underline;
 
-  
-.content-home{
-  background-image: url('tour-pic/akgec-2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 120vh;
 }
-.content-home h1{
-  width: auto;
-  padding: 10px;
-  background-color: yellow;
+h3{
+  color: rgb(8, 38, 207);
+  font-style: oblique;
+
 }
-.content-home p{
-font-weight: bold;
+h5{
+  color: rgb(8, 38, 207);
+  font-style: oblique;
+
 }
+#about-us .img-about{
+  margin: 12px;
+  float: left;
+  width: 40vw;
+}
+p{
+  font-style: oblique;
+ 
+}
+
+
