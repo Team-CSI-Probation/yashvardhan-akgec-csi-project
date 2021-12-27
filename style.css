@@ -6,9 +6,12 @@
 
 /* Dropdown Button */
 .nav{
+  justify-content: center;
     color: white;
     background-color: black;
+    font-family:cursive;
 }
+
 .nav-home
 {
   color: white;
@@ -48,7 +51,8 @@
   .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
 h6{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   color: rgb(98, 14, 177);
 }
@@ -71,6 +75,11 @@ h5{
   margin: 12px;
   float: left;
   width: 40vw;
+}
+.about-para{
+  position: relative;
+  margin: 100px;
+   
 }
 p{
   font-style: oblique;
