@@ -50,25 +50,32 @@
   }
   .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
+
+  .center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
 h6{
   
-  font-family: 'Times New Roman', Times, serif;
+  font-family:cursive;
   font-weight: bold;
-  color: rgb(98, 14, 177);
+  color: rgb(62, 16, 105);
 }
 h1{color: brown;
   font-style: oblique;
-  text-decoration: underline;
+
 
 }
 h4{
   color: brown;
   font-style: oblique;
-  text-decoration: underline;
 }
 h3{
-  color: rgb(8, 38, 207);
+  color: rgb(21, 17, 235);
   font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 h5{
@@ -76,6 +83,7 @@ h5{
   font-style: oblique;
 
 }
+
 #about-us .img-about{
   margin: 12px;
   float: left;
@@ -90,11 +98,26 @@ p{
   font-style: oblique;
  
 }
+
 .video-home{
   text-align: center;
+
+}
+@media screen and(max-width: 700px) {
+  .video-home{
+    text-align: center;
+  
+  } 
+  
+}
+@media screen and(max-width: 500px) {
+  .video-home{
+    text-align: center;
+  
+  } 
+  
 }
 #footer-yash
 {
   margin: 100px 0px 0px;
 }
-
