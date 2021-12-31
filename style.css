@@ -50,13 +50,39 @@
   }
   .dropdown-content a:hover {background-color: black;}
   .dropdown:hover .dropdown-content {display: block;}
-
+.sylla-img
+{
+  display: inline-block;
+margin-left: 75px;
+margin-top: 15px;
+text-align: center;
+}
   .center-img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     }
+.link-fees{
+ 
+  color: white;
+}
+.link-fees li{
+  list-style: none;
+
+}
+.link-fees li a{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-decoration: none;
+  background-color: rgb(53, 164, 207);
+ color: rgb(13, 13, 185);
+font-family: cursive;
+font-weight: bold;
+text-align: center;
+}
 h6{
   
   font-family:cursive;
